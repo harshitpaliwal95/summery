@@ -1,0 +1,105 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  /* background-color: #edf0f2; */
+  /* background: linear-gradient(to top, #000000 0%, #434343 100%); */
+  background-image: url(../img/bgc.jpg);
+}
+
+/* header */
+.navbar {
+  background-color: #40404057;
+  border-left: 5px solid white;
+  border-right: 5px solid white;
+}
+.navbar h1 {
+  text-decoration: none;
+  color: whitesmoke;
+  display: block;
+  text-align: center;
+  margin: auto;
+  padding: 18px;
+}
+
+/* camera section */
+.camera {
+  display: flexbox;
+}
+.camera img {
+  display: block;
+  height: 15vh;
+  margin: auto;
+  padding: 150px;
+}
+
+/* about section */
+.about-section {
+  border-left: 2px solid whitesmoke;
+  border-right: 2px solid whitesmoke;
+  margin: 13px 156px;
+  padding: 80px;
+  background-color: #40404057;
+}
+.about-section p {
+  text-align: center;
+  margin: 15px;
+  padding: 20px;
+  font-size: large;
+  color: whitesmoke;
+}
+/* project heading */
+.project-heading {
+  display: flex;
+  padding: 71px;
+}
+.project-heading h1 {
+  border-left: 2px solid whitesmoke;
+  border-right: 2px solid whitesmoke;
+  text-align: center;
+  margin: auto;
+  padding: 10px 94px;
+  font-size: 1.6rem;
+  background-color: #40404057;
+}
+
+/* project main */
+.services {
+  display: flex;
+  margin: 10px;
+}
+.services .box {
+  border-left: 2px solid whitesmoke;
+  border-right: 2px solid whitesmoke;
+  margin: 0px 69px;
+  padding: 67px;
+  background: #40404057;
+  text-align: center;
+}
+
+.services .box img {
+  display: flex;
+  margin: auto;
+  height: 125px;
+  padding: 23px;
+  border-radius: 10%;
+}
+.services p {
+  margin: 0px;
+  padding: 8px;
+  text-align: center;
+  font-size: large;
+  color: whitesmoke;
+  padding: 21px;
+}
+
+/* utility */
+.h-primary {
+  color: whitesmoke;
+  text-align: center;
+  font-size: large;
+  font-family: sans-serif;
+  font-size: 1.8rem;
+}
